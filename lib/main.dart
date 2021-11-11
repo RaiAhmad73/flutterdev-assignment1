@@ -40,7 +40,7 @@ class Assignment1 extends StatelessWidget {
                     ),
                   ),
                   height: height * .13,
-                  width: width)
+                  width: width * .99)
             ]),
           ),
           Padding(
@@ -67,7 +67,7 @@ class Assignment1 extends StatelessWidget {
                       ),
                     ),
                     height: height * .13,
-                    width: width * 0.82),
+                    width: width * 0.815),
               )
             ]),
           ),
@@ -83,7 +83,7 @@ class Assignment1 extends StatelessWidget {
                     ),
                   ),
                   height: height * .65,
-                  width: width),
+                  width: width * .99),
             )
           ]),
           Row(children: [
@@ -98,7 +98,7 @@ class Assignment1 extends StatelessWidget {
                     ),
                   ),
                   height: height * .05,
-                  width: width),
+                  width: width * .99),
             )
           ]),
           Row(children: [
@@ -113,7 +113,7 @@ class Assignment1 extends StatelessWidget {
                     ),
                   ),
                   height: height * .40,
-                  width: width,
+                  width: width * .99,
                   child: const Align(
                       alignment: Alignment.center,
                       child: Text("#8D43B3",
@@ -203,7 +203,7 @@ class Assignment1 extends StatelessWidget {
                     ),
                   ),
                   height: height * .25,
-                  width: width,
+                  width: width * .99,
                   child: const Align(
                       alignment: Alignment.center,
                       child: Text("#2AA650",
@@ -272,7 +272,7 @@ class Assignment1 extends StatelessWidget {
                   ),
                 ),
                 height: height * .45,
-                width: width,
+                width: width * .99,
               ),
             )
           ])
